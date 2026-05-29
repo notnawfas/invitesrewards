@@ -1,0 +1,25 @@
+# Configuration file for Invites Rewards Plugin
+# This plugins was only uploaded in modrinth (https://modrinth.com/plugin/invitesrewards)
+# and GitHub (url).
+# If you downloaded this plugin from somewhere else then there is a high chance that this is a fake configured plugin,
+# and can be used to steal your bot token or do other malicious things.
+# More details can be found in the blog post: https://notnawfas.qzz.io/blog/invites-rewards-plugin
+# plugin by NotNawfas (https://notnawfas.qzz.io)
+# .
+# Go to "https://discord.com/developers/applications/" and then create a new application.
+# Configure Bot Appearance and other settings as you like.
+# Then go to the "Bot" tab and make sure
+# Presence Intent, Server Members Intent and Message Content Intent are enabled.
+# After all of that copy the bot token and paste it in the "bot-token" field below.
+bot-token: ""
+# Minimum account age in days for the invited user to count as a valid invite. 
+# This helps to prevent abuse from users creating multiple accounts to gain rewards.
+# Default: 7 days (recommended), set to 0 to disable this check.
+min-account-age-days: 7
+# Go to "https://discord.com/developers/applications/", click on your application,
+# Then in the General Information tab, copy the Application ID and,
+# replace "PASTE_APPLICATION_ID_HERE" with the actual Application ID.
+# "https://discord.com/oauth2/authorize?client_id=1PASTE_APPLICATION_ID_HERE&permissions=32&redirect_uri=https%3A%2F%2Fdiscord.gg%2FfSrNm8RbZ&integration_type=0&scope=bot"
+# Then open the link in your browser, and add the bot to your server.
+# Make sure to make your bot private or if others add your bot to their servers,
+# The plugin will also monitor the invites of those and reward the inviters which can lead to abuse.

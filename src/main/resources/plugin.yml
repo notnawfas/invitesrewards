@@ -1,0 +1,12 @@
+name: InvitesRewards
+version: '1.1.0'
+main: com.notnawfas.invitesrewards.InvitesRewards
+api-version: '1.13'
+author: notnawfas
+description: Links Discord invite tracking to in-game rewards.
+
+commands:
+  invitesreward:
+    description: Main command for InvitesRewards plugin.
+    usage: /<command> [help|generate|claim|reload]
+    aliases: [ir]

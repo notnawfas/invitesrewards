@@ -1,0 +1,5 @@
+com\notnawfas\invitesrewards\InvitesRewards.class
+com\notnawfas\invitesrewards\ConfigManager.class
+com\notnawfas\invitesrewards\CommandManager.class
+com\notnawfas\invitesrewards\DiscordBot.class
+com\notnawfas\invitesrewards\RewardCodeManager.class

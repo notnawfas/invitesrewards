@@ -1,0 +1,15 @@
+messages:
+  no-permission: "&cYou do not have permission to use this command."
+  code-generated: "&a[InvitesRewards] &fSuccessfully Generated A Reward Code!\n&7To claim, run: &e/invitesreward claim %code%"
+  code-claimed: "&a[InvitesRewards] &fYou have successfully claimed your reward!"
+  invalid-code: "&c[InvitesRewards] Invalid or already claimed code."
+  reloaded: "&a[InvitesRewards] Configuration files reloaded successfully."
+  help:
+    - "&e--- InvitesRewards Help ---"
+    - "&f/invitesreward generate &7- Generates a new reward code."
+    - "&f/invitesreward claim <code> &7- Claims a reward code."
+    - "&f/invitesreward reload &7- Reloads the plugin configuration."
+    - "&f/invitesreward help &7- Shows this help message."
+  discord:
+    fake-invite: "The user you invited does not meet the minimum account age requirement. Reward cancelled."
+    success-invite: "Thanks for inviting %user%! Your reward code: %code%. Use /invitesreward claim %code% in-game!"

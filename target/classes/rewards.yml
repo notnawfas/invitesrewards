@@ -1,0 +1,24 @@
+# Manage your rewards from here.
+# After a succesful invite, the invite will DMed a code and
+# if a user redeems that code, they will get the rewards specified in the group they belong to
+# You can create as many groups as you want, just make sure to give them unique names
+# There is no support for default group. You MUST give the user a permission of a group
+# such as "invitesreward.group.default" to get the rewards specified in that group
+# if a user doesn't have any group permission,
+# they won't get any rewards even if they have a valid invite code
+# instead they will get a message saying "You claimed the code, but no reward was configured for your rank."
+# more info at https://notnawfas.qzz.io/blog/invites-rewards-plugin
+# plugin by NotNawfas (https://notnawfas.qzz.io)
+groups: 
+  default: 
+    permission: "invitesreward.group.default" 
+    commands: ["give %player_name% diamond 8"] 
+  vip: 
+    permission: "invitesreward.group.vip" 
+    commands: ["give %player_name% epic_crate_key 1"]
+  multiplecommands:
+    permission: "invitesreward.group.multiplecommands"
+    commands:
+    - "give %player_name% diamond 8"
+    - "eco give %player_name% 1000"
+    - "broadcast %player_name% just claimed a reward for inviting their friend!"
